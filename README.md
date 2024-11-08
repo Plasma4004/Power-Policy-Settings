@@ -29,66 +29,114 @@
 ### AHCI Link Power Management - HIPM/DIPM
 配置 LPM 状态
 
+Active/HIPM/HIPM+DIPM/DIPM/Lowest
+
+**Active**为性能档
 
 ### APST ITPT for non-operational power states (ms) on Hybrid Optane drive
 APST ITPT，用于 Hybrid Optane 驱动器上的非运行电源状态 （ms）
 
+0-60000(ms)
+
+**0**为性能档
 
 ### 最大电量水平
 指定存储设备不应超过的功耗水平
 
+0-100(%)
+
+**100**为性能档
 
 ### APST ITPT for non-operational power states (ms) on Hybrid Nand drive
 APST ITPT 用于混合 Nand 驱动器上的非工作电源状态 （ms）
 
+0-60000(ms)
+
+**0**为性能档
 
 ### APST ITPT for non-operational power states (ms) on any NVMe drive
 APST ITPT 适用于任何 NVMe 驱动器上的非运行电源状态 （ms）
 
+0-60000(ms)
+
+**0**为性能档
 
 ### 在此时间后关闭硬盘
 指定关闭磁盘前硬盘驱动器处于非活动状态的时间
 
+0-70999999(s)
+
+**70999999**为性能档
 
 ### APST ITPT for operational power states (ms) on any NVMe drive
 APST ITPT 适用于任何 NVMe 驱动器上的运行电源状态 （ms）
 
+0-60000(ms)
+
+**60000**为性能档
 
 ### 硬盘脉冲忽略时间
 确定磁盘是否空闲时，忽略指定时间之前的磁盘活动脉冲
 
+0-70999999(s)
+
+**0**为性能档
 
 ### APST ITPT for operational power states (ms) on Hybrid Nand drive
 APST ITPT 用于 Hybrid Nand 驱动器上的运行功率状态 （ms）
 
+0-60000(ms)
+
+**60000**为性能档
 
 ### APST ITPT for operational power states (ms) on Hybrid Optane drive
 APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 
+0-60000(ms)
+
+**60000**为性能档
 
 ### Secondary NVMe Idle Timeout
 指定 NVMe 设备在过渡到辅助非工作电源状态之前必须处于主要非运行电源状态的时间量
 
+0-60000(ms)
+
+**60000**为性能档
 
 ### Primary NVMe Idle Timeout
 指定 NVMe 设备在过渡到主要非运行电源状态之前必须处于空闲状态的时间
 
+0-60000(ms)
+
+**60000**为性能档
 
 ### AHCI Link Power Management - Adaptive
 自动从 Partial 过渡到 Slumber
 
+0-60000(ms)
+
+**60000**为性能档
 
 ### Secondary NVMe Power State Transition Latency Tolerance
 在 NVMe 设备处于主要非运行电源状态一段时间后，转换为 ENLAT+EXLAT 值小于或等于此设置指定值的最低非运行电源状态
 
+0-60000(ms)
+
+**0**为性能档
 
 ### NVMe NOPPME
 启用或禁用 NVMe 非工作电源状态许可模式
 
+On/Off
+
+**On**为性能档
 
 ### Primary NVMe Power State Transition Latency Tolerance
 当 NVMe 设备空闲一段时间后，转换为 ENLAT+EXLAT 值小于或等于此设置指定值的最低非运行电源状态
 
+0-60000(ms)
+
+**0**为性能档
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Plasma4004/Plasma4004/assets/images/hr.gif" />
 
@@ -164,10 +212,16 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 ### Hub Selective Suspend Timeout
 此值将用作所有 USB 集线器的空闲超时
 
+0-100000(ms)
+
+**0**为性能档
 
 ### USB 选择性暂停设置
 指定是否启用或关闭 USB 选择性暂停功能
 
+已启用/已禁用
+
+**已禁用**为性能档
 
 ### Setting IOC on all TDs
 是否应该为所有 TD 设置 IOC
@@ -176,6 +230,9 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 ### USB 3 Link Power Mangement
 指定 USB 3 链路空闲时用于 USB 3 链路的电源管理策略
 
+Off/Minimum power savings/Moderate power savings/Maximum power savings
+
+**Off**为性能档
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Plasma4004/Plasma4004/assets/images/hr.gif" />
 
