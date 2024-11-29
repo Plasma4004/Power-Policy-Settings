@@ -71,7 +71,7 @@ APST ITPT 适用于任何 NVMe 驱动器上的非运行电源状态 （ms）
 
 0-70999999(s)
 
-**70999999**为性能档
+**0**为性能档
 
 
 ### APST ITPT for operational power states (ms) on any NVMe drive
@@ -125,9 +125,9 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 ### AHCI Link Power Management - Adaptive
 自动从 Partial 过渡到 Slumber
 
-0-60000(ms)
+0-300000(ms)
 
-**60000**为性能档
+**300000**为性能档
 
 
 ### Secondary NVMe Power State Transition Latency Tolerance
