@@ -127,7 +127,7 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 
 0-300000(ms)
 
-**300000**为性能档
+**0**为性能档
 
 
 ### Secondary NVMe Power State Transition Latency Tolerance
