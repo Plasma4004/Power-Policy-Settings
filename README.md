@@ -260,24 +260,34 @@ Off/Minimum power savings/Moderate power savings/Maximum power savings
 ### 执行要求的电源请求的超时时间
 指定执行要求的电源请求的超时时间
 
+0-4294967295(s)
+
 
 ### IO 合并超时时间
 指定 IO 合并超时时间
+
+0-4294967295(ms)
 
 
 ### 处理器空闲复原定时器精度
 指定处理器空闲复原定时器精度
 
+0-65000(ms)
+
 
 ### 已启用/禁用深度睡眠
 指定深度睡眠是否启用
 
+已禁用深度睡眠/已启用深度睡眠
+
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Plasma4004/Plasma4004/assets/images/hr.gif" />
 
-## ???
+## 鑻辩壒灏?R) 鏄惧崱璁剧疆
 
-### ???
+### 鑻辩壒灏?R) 鏄惧崱鐢垫簮璁″垝
+
+鏈€闀跨數姹犲鍛?/骞宠　鐨?/鏈€楂樻€ц兘
 
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Plasma4004/Plasma4004/assets/images/hr.gif" />
@@ -287,14 +297,19 @@ Off/Minimum power savings/Moderate power savings/Maximum power savings
 ### 中断路由控制模式
 中断路由控制模式
 
+默认/任何处理器/任何具有时间延迟的已启动处理器/任何启动的处理器/锁定中断路由/处理器 0/处理器 1
+
 
 ### 目标负载
 每个处理器的目标负载
+
+0-10000(1/1000)
 
 
 ### 已启动时间触发器
 将中断移到处理器上之前，处理器必须保持启动状态的时间
 
+0-100000(ms)
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Plasma4004/Plasma4004/assets/images/hr.gif" />
 
@@ -330,6 +345,8 @@ Off/Minimum power savings/Moderate power savings/Maximum power savings
 
 ### 链接状态电源管理
 指定链接空闲时用于可用链接的“活动状态电源管理(ASPM)”策略
+
+关闭/中等电源节省量/最大电源节省量
 
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Plasma4004/Plasma4004/assets/images/hr.gif" />
