@@ -31,7 +31,7 @@
 
 Active/HIPM/HIPM+DIPM/DIPM/Lowest
 
-**Active**为性能档
+**Active**
 
 
 ### APST ITPT for non-operational power states (ms) on Hybrid Optane drive
@@ -39,7 +39,7 @@ APST ITPT，用于 Hybrid Optane 驱动器上的非运行电源状态 （ms）
 
 0-60000(ms)
 
-**0**为性能档
+**0**
 
 
 ### 最大电量水平
@@ -47,7 +47,7 @@ APST ITPT，用于 Hybrid Optane 驱动器上的非运行电源状态 （ms）
 
 0-100(%)
 
-**100**为性能档
+**100**
 
 
 ### APST ITPT for non-operational power states (ms) on Hybrid Nand drive
@@ -55,7 +55,7 @@ APST ITPT 用于混合 Nand 驱动器上的非工作电源状态 （ms）
 
 0-60000(ms)
 
-**0**为性能档
+**0**
 
 
 ### APST ITPT for non-operational power states (ms) on any NVMe drive
@@ -63,7 +63,7 @@ APST ITPT 适用于任何 NVMe 驱动器上的非运行电源状态 （ms）
 
 0-60000(ms)
 
-**0**为性能档
+**0**
 
 
 ### 在此时间后关闭硬盘
@@ -71,7 +71,7 @@ APST ITPT 适用于任何 NVMe 驱动器上的非运行电源状态 （ms）
 
 0-70999999(s)
 
-**0**为性能档
+**0**
 
 
 ### APST ITPT for operational power states (ms) on any NVMe drive
@@ -79,7 +79,7 @@ APST ITPT 适用于任何 NVMe 驱动器上的运行电源状态 （ms）
 
 0-60000(ms)
 
-**60000**为性能档
+**60000**
 
 
 ### 硬盘脉冲忽略时间
@@ -87,7 +87,7 @@ APST ITPT 适用于任何 NVMe 驱动器上的运行电源状态 （ms）
 
 0-70999999(s)
 
-**0**为性能档
+**0**
 
 
 ### APST ITPT for operational power states (ms) on Hybrid Nand drive
@@ -95,7 +95,7 @@ APST ITPT 用于 Hybrid Nand 驱动器上的运行功率状态 （ms）
 
 0-60000(ms)
 
-**60000**为性能档
+**60000**
 
 
 ### APST ITPT for operational power states (ms) on Hybrid Optane drive
@@ -103,7 +103,7 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 
 0-60000(ms)
 
-**60000**为性能档
+**60000**
 
 
 ### Secondary NVMe Idle Timeout
@@ -111,7 +111,7 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 
 0-60000(ms)
 
-**60000**为性能档
+**60000**
 
 
 ### Primary NVMe Idle Timeout
@@ -119,7 +119,7 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 
 0-60000(ms)
 
-**60000**为性能档
+**60000**
 
 
 ### AHCI Link Power Management - Adaptive
@@ -127,7 +127,7 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 
 0-300000(ms)
 
-**300000**为性能档
+**300000**
 
 
 ### Secondary NVMe Power State Transition Latency Tolerance
@@ -135,7 +135,7 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 
 0-60000(ms)
 
-**0**为性能档
+**0**
 
 
 ### NVMe NOPPME
@@ -143,7 +143,7 @@ APST ITPT 用于 Hybrid Optane 驱动器上的运行功率状态 （ms）
 
 On/Off
 
-**On**为性能档
+**On**
 
 
 ### Primary NVMe Power State Transition Latency Tolerance
@@ -151,7 +151,7 @@ On/Off
 
 0-60000(ms)
 
-**0**为性能档
+**0**
 
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Plasma4004/Plasma4004/assets/images/hr.gif" />
@@ -230,7 +230,7 @@ On/Off
 
 0-100000(ms)
 
-**0**为性能档
+**0**
 
 
 ### USB 选择性暂停设置
@@ -238,7 +238,7 @@ On/Off
 
 已启用/已禁用
 
-**已禁用**为性能档
+**已禁用**
 
 
 ### Setting IOC on all TDs
@@ -250,7 +250,7 @@ On/Off
 
 Off/Minimum power savings/Moderate power savings/Maximum power savings
 
-**Off**为性能档
+**Off**
 
 
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Plasma4004/Plasma4004/assets/images/hr.gif" />
